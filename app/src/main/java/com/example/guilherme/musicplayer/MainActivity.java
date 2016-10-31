@@ -37,5 +37,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        Button resetButton = (Button)findViewById(R.id.reset_button);
+
+        resetButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                mediaPlayer.reset();
+            }
+        });
+
     }
 }
