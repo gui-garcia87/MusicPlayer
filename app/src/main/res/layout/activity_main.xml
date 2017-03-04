@@ -12,22 +12,10 @@
     tools:context="com.example.guilherme.musicplayer.MainActivity">
 
     <Button
-        android:id="@+id/play_button"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Play" />
-
-    <Button
-        android:id="@+id/pause_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Pause" />]
-
-    <Button
-        android:id="@+id/reset_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Reset" />
+        android:id="@+id/go_player_button"
+        android:text="Go Player"/>
 
 
 </android.support.v7.widget.LinearLayoutCompat>
