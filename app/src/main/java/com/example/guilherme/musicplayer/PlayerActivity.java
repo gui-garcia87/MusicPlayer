@@ -159,7 +159,7 @@ public class PlayerActivity extends AppCompatActivity{
                 if((temp+forwardTime)<=finalTime){
                     startTime = startTime + forwardTime;
                     mediaPlayer.seekTo((int) startTime);
-                    Toast.makeText(getApplicationContext(),"Jump back 5",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(),"Jump forward 5",Toast.LENGTH_SHORT).show();
                 }else{
                     Toast.makeText(getApplicationContext(),"No Jump",Toast.LENGTH_SHORT).show();
                 }
@@ -175,7 +175,7 @@ public class PlayerActivity extends AppCompatActivity{
                 if((temp-backwardTime)>0){
                     startTime = startTime - backwardTime;
                     mediaPlayer.seekTo((int) startTime);
-                    Toast.makeText(getApplicationContext(),"Jump forward 5",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(),"Jump back 5",Toast.LENGTH_SHORT).show();
                 }else{
                     Toast.makeText(getApplicationContext(),"No Jump",Toast.LENGTH_SHORT).show();
                 }
